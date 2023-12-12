@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  jdbc:
+    template:
+      query-timeout: 4
+  batch:
+    job:
+      enabled: false
+
+batch:
+  chunk-size: 3
